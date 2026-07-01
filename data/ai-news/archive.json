@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-06-24T08:00:00Z",
+  "sourceRun": "manual-seed-000",
+  "stories": [
+    {
+      "id": "news-20260624-001",
+      "slug": "mistral-large-3-open-weights",
+      "title": "Mistral AI Releases Large 3 as Open-Weights Model",
+      "summary": "Mistral AI has open-sourced Mistral Large 3, a 70-billion parameter model that rivals GPT-4o on several benchmarks while being fully available for commercial self-hosting. The release is accompanied by an Apache 2.0 licence, making it one of the most permissively licensed frontier-class models to date.",
+      "sourceUrl": "https://mistral.ai/news",
+      "sourceName": "Mistral AI Blog",
+      "publishedAt": "2026-06-20T12:00:00Z",
+      "selectedAt": "2026-06-24T08:00:00Z",
+      "category": "Open Source",
+      "tags": ["Mistral", "open-weights", "open-source", "LLM"],
+      "shareText": "Mistral AI open-sourced Large 3 (70B) under Apache 2.0 — frontier-class performance, fully self-hostable. Open AI just got a whole lot more capable. 🔓 #AI #OpenSource #Mistral",
+      "confidence": 0.96,
+      "featured": false,
+      "order": 1
+    },
+    {
+      "id": "news-20260624-002",
+      "slug": "nvidia-blackwell-ultra-inference",
+      "title": "NVIDIA Blackwell Ultra Cuts LLM Inference Costs by 60% in Benchmarks",
+      "summary": "NVIDIA's Blackwell Ultra GPU architecture, now shipping to cloud providers, is demonstrating a 60% reduction in per-token inference cost for large language models compared to H100 clusters. Early adopters at major cloud providers report the savings are enabling new use cases that were previously cost-prohibitive.",
+      "sourceUrl": "https://nvidianews.nvidia.com",
+      "sourceName": "NVIDIA Newsroom",
+      "publishedAt": "2026-06-18T16:00:00Z",
+      "selectedAt": "2026-06-24T08:00:00Z",
+      "category": "Hardware",
+      "tags": ["NVIDIA", "GPU", "inference", "Blackwell", "cost"],
+      "shareText": "NVIDIA's Blackwell Ultra is cutting LLM inference costs by 60% vs H100s. Cheaper inference = AI in places that couldn't afford it before. ⚡ #AI #NVIDIA #Inference",
+      "confidence": 0.92,
+      "featured": false,
+      "order": 2
+    }
+  ]
+}
