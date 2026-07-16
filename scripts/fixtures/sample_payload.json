@@ -1,0 +1,21 @@
+{
+  "selected_ids": ["news-20260706-fixture-001"],
+  "selected_count": 1,
+  "stories": [
+    {
+      "id": "news-20260706-fixture-001",
+      "slug": "fixture-ai-news-publisher-test",
+      "title": "Fixture AI News Publisher Test",
+      "summary": "Fixture story used to validate the AI News publisher script without writing files.",
+      "sourceUrl": "https://example.com/ai-news-publisher-fixture",
+      "publishedAt": "2026-07-06T09:00:00Z",
+      "category": "Workflow Test",
+      "tags": ["fixture", "ai-news", "publisher"],
+      "whyItMatters": "It verifies the publishing path before workflow execution.",
+      "socialPost": "Fixture post for publisher validation.",
+      "status": "published",
+      "createdAt": "2026-07-06",
+      "updatedAt": "2026-07-06"
+    }
+  ]
+}

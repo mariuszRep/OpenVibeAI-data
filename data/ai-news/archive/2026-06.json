@@ -1,0 +1,70 @@
+{
+  "updatedAt": "2026-07-15",
+  "stories": [
+    {
+      "id": "news-20260701-001",
+      "slug": "claude-4-opus-multimodal-reasoning",
+      "title": "Anthropic Releases Claude Opus 4.8 with Enhanced Multimodal Reasoning 4",
+      "summary": "Anthropic has launched Claude Opus 4.8, featuring significant improvements in multimodal reasoning, code generation, and long-context understanding. The model demonstrates state-of-the-art performance on complex scientific and mathematical tasks while maintaining the safety standards Anthropic is known for.",
+      "sourceUrl": "https://www.anthropic.com/news",
+      "sourceName": "Anthropic Blog",
+      "publishedAt": "2026-06-30T14:00:00Z",
+      "selectedAt": "2026-07-01T08:00:00Z",
+      "category": "Model Release",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "multimodal",
+        "reasoning"
+      ],
+      "shareText": "Anthropic just released Claude Opus 4.8 with major multimodal reasoning upgrades — state-of-the-art on complex science and math tasks. 🧠 #AI #Claude #Anthropic",
+      "xPost": "Anthropic just released Claude Opus 4.8 with major multimodal reasoning upgrades — state-of-the-art on complex science and math tasks. 🧠 #AI #Claude",
+      "linkedinPost": "Anthropic has released Claude Opus 4.8, featuring significant improvements in multimodal reasoning and long-context understanding. A major step forward for AI-assisted scientific research.",
+      "confidence": 0.98,
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "news-20260701-002",
+      "slug": "openai-gpt5-agentic-workflows",
+      "title": "OpenAI Previews GPT-5 Agentic Workflow Capabilities at Developer Day",
+      "summary": "OpenAI's annual Developer Day showcased GPT-5's native agentic workflow capabilities, including the ability to autonomously plan, execute multi-step tasks, and recover from errors without human intervention. The new function-calling API design dramatically reduces latency for tool-use-heavy applications.",
+      "sourceUrl": "https://openai.com/blog",
+      "sourceName": "OpenAI Blog",
+      "publishedAt": "2026-06-29T18:30:00Z",
+      "selectedAt": "2026-07-01T08:00:00Z",
+      "category": "Model Release",
+      "tags": [
+        "OpenAI",
+        "GPT-5",
+        "agents",
+        "function-calling"
+      ],
+      "shareText": "OpenAI previewed GPT-5's native agentic capabilities at Developer Day — autonomous multi-step task execution with built-in error recovery. The agent era is here. 🤖 #AI #OpenAI #GPT5",
+      "confidence": 0.95,
+      "featured": true,
+      "order": 2
+    },
+    {
+      "id": "news-20260701-003",
+      "slug": "deepmind-alphafold3-protein-interactions",
+      "title": "DeepMind AlphaFold 3 Expands to Predict Full Protein Interaction Networks",
+      "summary": "Google DeepMind has extended AlphaFold 3 to model entire protein-protein interaction networks at the proteome scale, enabling researchers to map disease pathways and drug targets with unprecedented accuracy. Early results show a 40% improvement in predicting novel binding sites over previous methods.",
+      "sourceUrl": "https://deepmind.google/research",
+      "sourceName": "DeepMind Research",
+      "publishedAt": "2026-06-28T10:00:00Z",
+      "selectedAt": "2026-07-01T08:00:00Z",
+      "category": "Research",
+      "tags": [
+        "DeepMind",
+        "AlphaFold",
+        "biology",
+        "drug-discovery"
+      ],
+      "shareText": "DeepMind extended AlphaFold 3 to map full protein interaction networks at proteome scale — 40% better at finding novel drug binding sites. AI is transforming medicine. 🧬 #AI #AlphaFold #DeepMind",
+      "confidence": 0.97,
+      "featured": false,
+      "order": 3
+    }
+  ]
+}
