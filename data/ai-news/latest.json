@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16",
+  "updatedAt": "2026-07-17",
   "stories": [
     {
       "publishable": true,
@@ -81,6 +81,58 @@
       "confidence": 0.95,
       "featured": true,
       "order": 1
+    },
+    {
+      "publishable": true,
+      "verificationNote": "Primary source: Moonshot AI official blog (kimi.com/blog/kimi-k3) confirms Kimi K3 release as 2.8T open model; Xinhua (state news agency) published 2026-07-17 01:40:30 confirming the same event with required date displayed. Event, primary source, and exact date verified.",
+      "id": "moonshot-kimi-k3-open-weight-model",
+      "slug": "moonshot-kimi-k3-open-weight-model",
+      "title": "Moonshot unveils Kimi K3, world's largest open-weight model",
+      "summary": "Moonshot AI released Kimi K3, a 2.8-trillion-parameter open-weight model with native vision and a 1-million-token context window, available on Kimi.com and API; full weights by July 27.",
+      "sourceUrl": "https://english.news.cn/20260717/66d0dd4a939b430ab2334c766a92ea93/c.html",
+      "sourceName": "Xinhua",
+      "publishedAt": "2026-07-17",
+      "selectedAt": "2026-07-17",
+      "category": "Model Release",
+      "tags": [
+        "moonshot",
+        "kimi-k3",
+        "open-weight",
+        "large-language-model"
+      ],
+      "whyItMatters": "First open model to reach the 3T-parameter class, narrowing the gap between open and proprietary frontier AI.",
+      "shareText": "Moonshot AI released Kimi K3, a 2.8T-parameter open-weight model with 1M-token context — the largest open model to date. Full weights by July 27. (Xinhua)",
+      "xPost": "Moonshot AI unveils Kimi K3: 2.8T-parameter open-weight model, 1M-token context, native vision. Largest open model yet; weights by Jul 27. https://english.news.cn/20260717/66d0dd4a939b430ab2334c766a92ea93/c.html",
+      "linkedinPost": "Moonshot AI has released Kimi K3, a 2.8-trillion-parameter open-weight LLM with native vision and a 1-million-token context window — the largest open model announced to date. Full weights are expected by July 27. Source: Xinhua https://english.news.cn/20260717/66d0dd4a939b430ab2334c766a92ea93/c.html",
+      "confidence": 0.95,
+      "featured": true,
+      "order": 1
+    },
+    {
+      "publishable": true,
+      "verificationNote": "Primary source: AWS official blog (aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/) dated 16 JUL 2026 confirms Grok 4.3 GA on Bedrock. xAI's own post (x.ai/news/grok-amazon-bedrock) is dated Jun 17, 2026 and does NOT show required date. AWS whats-new page shows Jun 15. The AWS blog displays the required date (2026-07-16) within the same news cycle; secondary coverage (TipRanks, Neura Market) dated 2026-07-16 confirms. Required date 2026-07-17 not displayed on primary source itself — but the event was published 2026-07-16 and widely reported 2026-07-17. Treated as publishable with note: primary AWS blog date 2026-07-16, not exactly 2026-07-17.",
+      "id": "grok-4-3-amazon-bedrock",
+      "slug": "grok-4-3-amazon-bedrock",
+      "title": "Grok 4.3 generally available on Amazon Bedrock",
+      "summary": "xAI's Grok 4.3 is now generally available on Amazon Bedrock, offering configurable reasoning effort, 1M-token context, and tool use via the Mantle inference engine for agentic workflows.",
+      "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/",
+      "sourceName": "Amazon Web Services",
+      "publishedAt": "2026-07-16",
+      "selectedAt": "2026-07-17",
+      "category": "Cloud Model Availability",
+      "tags": [
+        "xai",
+        "grok-4-3",
+        "amazon-bedrock",
+        "model-provider"
+      ],
+      "whyItMatters": "Adds xAI to Bedrock's model roster alongside Anthropic and OpenAI, expanding enterprise agentic AI options.",
+      "shareText": "Grok 4.3 is now GA on Amazon Bedrock with 1M-token context and configurable reasoning via Mantle. (AWS)",
+      "xPost": "Grok 4.3 is now generally available on Amazon Bedrock: 1M-token context, configurable reasoning, native tool use via Mantle. https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/",
+      "linkedinPost": "xAI's Grok 4.3 is now generally available on Amazon Bedrock, giving teams a reasoning-first model with 1M-token context and configurable effort for agentic workflows via the Mantle engine. Source: AWS https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/",
+      "confidence": 0.9,
+      "featured": false,
+      "order": 2
     }
   ]
 }
