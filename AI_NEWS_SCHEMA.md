@@ -11,19 +11,22 @@ that ran this change).
 ## Where the publisher lives now
 
 The publish script is **not** in this repo anymore. It lives alongside its
-workflow definition:
+workflow definition (the Projectflows engine's storage convention changed to
+nested per-workflow directories after this was first written — path updated
+below):
 
 ```
-~/.projectflows/workflows/ai-news-top-impact-publisher.json   (workflow definition)
-~/.projectflows/workflows/ai-news-top-impact-publisher/scripts/
-  publish_ai_news.py          (writes into this repo via --repo)
-  list_recent_headlines.py    (dedup helper, reads this repo via --repo)
+~/.projectflows/workflows/ai-news-top-impact-publisher/
+  workflow.json                (workflow definition)
+  scripts/
+    publish_ai_news.py         (writes into this repo via --repo)
+    list_recent_headlines.py   (dedup helper, reads this repo via --repo)
 ```
 
 Nobody should look in this repo for the publishing logic — it only ever
 receives the JSON files below as output.
 
-## `AiNewsStory` shape (as of workflow v2.3.0)
+## `AiNewsStory` shape (as of workflow v2.3.1)
 
 ```ts
 type AiNewsStory = {
@@ -34,7 +37,7 @@ type AiNewsStory = {
   sources: { url: string; name: string }[]   // 1-5 items, primary source always sources[0]
   sourceUrl: string             // duplicate of sources[0].url (kept for the dedupe key)
   sourceName: string            // duplicate of sources[0].name
-  websiteUrl: string            // "https://www.openvibe.ai/open-vibe/ai-news/{slug}"
+  websiteUrl: string            // "https://www.openvibe.ai/ai-news/{slug}"
   publishedAt: string           // YYYY-MM-DD, date the primary source displayed
   selectedAt: string            // YYYY-MM-DD, date the workflow selected it
   category: string
@@ -84,33 +87,48 @@ re-sorting client-side, and `featured` is now guaranteed unique.
   before the website switches to `archive/index.json` — delete it as part of
   the website migration once nothing reads it.
 
-## URL scheme change — social posts now link to your own site
+## URL scheme — social posts link to your own site
 
-`xPost`/`linkedinPost` used to embed the raw source URL. As of v2.3.0 they
-link to `story.websiteUrl` instead:
-`https://www.openvibe.ai/open-vibe/ai-news/{slug}`.
+`xPost`/`linkedinPost` link to `story.websiteUrl`:
+`https://www.openvibe.ai/ai-news/{slug}`.
 
-**This requires a real per-story page at that path with story-specific
-`generateMetadata`** (title/description/OG image) — the current AI News page
-(`app/products/ai-news/page.tsx`) is 100% client-side fetched with no
-per-story metadata, so LinkedIn/X link-preview unfurl bots (which don't
-execute JS) would only ever see the generic page card, not the specific
-story. A same-page anchor (`#slug`) will not fix this. Building
-`/open-vibe/ai-news/[slug]` with server-rendered metadata is the whole point
-of pointing links back at the site instead of the source article — without
-it, the change is functionally a no-op for social sharing.
+**Status: built.** The website now serves `/ai-news` (listing) and
+`/ai-news/[slug]` (per-story page with `generateMetadata` — title,
+description, and a generated OG image) so LinkedIn/X unfurl bots get a real
+preview card instead of the generic page. The website's own
+`lib/ai-news-data.ts` deliberately **recomputes** the canonical story URL
+from the slug rather than trusting the `websiteUrl` field verbatim — this
+was found to matter in practice (see note below).
 
-## Also needed on the website side (not covered by this doc's data contract, listed for completeness)
+**Known transitional mismatch, already handled:** the route settled on
+`/ai-news`, not `/open-vibe/ai-news` as originally speced in this doc. The
+workflow was writing `websiteUrl` values pointing at `/open-vibe/ai-news/...`
+during earlier test runs before that was caught — 6 already-published
+stories in `latest.json` still carry those stale URLs. The website added a
+redirect (`/open-vibe/ai-news(/:slug)` → `/ai-news`) to cover them, and the
+workflow (`build_story_payload`, fixed as of v2.3.1) now writes
+`/ai-news/{slug}` directly, so no more stale URLs will be produced going
+forward. The redirect can stay indefinitely as a safety net or be removed
+once nothing old-format remains in `latest.json`/the archive.
 
-- Route move: `/products/ai-news` → `/open-vibe/ai-news` (note:
-  `CONVENTIONS.md` in the website repo says "do not remove or rename existing
-  routes" — this needs either a redirect from the old path or an explicit
-  exception noted there)
-- Render up to 5 entries from `sources[]` per story (was previously a single
-  source link)
-- Render `impactAnalysis` alongside `summary`
-- Day-grouped "last 7 days" list (data already arrives newest-first) plus an
-  archive view backed by `archive/index.json`
-- Update the share-button `href` construction in `ai-news-card.tsx` to use
-  `story.websiteUrl` (the data now matches; the buttons still need the
-  code change)
+## Website side — status
+
+All built, per the website team's report:
+- Route: `/ai-news` (listing) + `/ai-news/[slug]` (per-story page,
+  `generateMetadata`, generated OG image). Old `/products/ai-news` redirects
+  here; `CONVENTIONS.md`'s "don't rename routes" rule was given a documented
+  exception for this move.
+- Renders `sources[]` (falls back gracefully for older stories published
+  before this field existed) and `impactAnalysis` when present.
+- Share buttons point at the site (`websiteUrl`, recomputed from slug); the
+  separate source link still points at the original article.
+- Day-grouped "Latest Stories" list, no client-side re-sorting (trusts the
+  now-guaranteed server-computed order); archive UI backed by
+  `archive/index.json` with lazy per-month fetching.
+- `app/sitemap.ts` has dynamic per-story entries.
+
+**Known gap on the website side:** roughly half of the stories already in
+`latest.json` predate this schema (`sources`/`impactAnalysis`/`websiteUrl`
+absent) — the website made these fields optional with fallbacks rather than
+assuming they're always present. New stories published by workflow v2.3.1+
+will always have them.
