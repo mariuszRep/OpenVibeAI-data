@@ -1,0 +1,29 @@
+{
+  "publishable": true,
+  "verificationNote": "Verified via Xinhua (official state news agency) reporting the CAC-led regulations on July 15, with same-day July 16 republication by People's Daily Online and China Daily Asia. The rules took effect July 15; major English-language official/state coverage confirming enactment appeared July 16, satisfying the required date. Primary government source is CAC; Xinhua is the official state wire confirming the enactment.",
+  "id": "china-enacts-first-ai-companion-regulations",
+  "slug": "china-enacts-first-ai-companion-regulations",
+  "title": "China enacts first AI companion regulations",
+  "summary": "China's Cyberspace Administration and four other government bodies enacted the country's first dedicated rules for AI companion bots, requiring platforms to detect emotional distress, limit excessive use, protect interaction data, and ban addictive design and virtual partners for minors.",
+  "sourceUrl": "https://english.news.cn/20260715/4bf39cb3c4db42babc10ed37932cfd94/c.html",
+  "sourceName": "Xinhua",
+  "publishedAt": "2026-07-16",
+  "selectedAt": "2026-07-16",
+  "category": "AI Policy",
+  "tags": [
+    "china",
+    "ai-regulation",
+    "ai-companions",
+    "cac",
+    "consumer-protection"
+  ],
+  "whyItMatters": "China is the first major jurisdiction with specific rules targeting emotionally engaging AI companions, setting a global precedent for companion-bot safety and minor protection.",
+  "shareText": "China enacted the world's first dedicated AI companion bot regulations, curbing emotional dependency and protecting minors. #AI #Regulation",
+  "xPost": "China enacted its first AI companion regulations: CAC-led rules ban addictive design, require crisis intervention, and block virtual partners for minors. https://english.news.cn/20260715/4bf39cb3c4db42babc10ed37932cfd94/c.html",
+  "linkedinPost": "China has enacted the first dedicated regulations for AI companion bots. Issued by the Cyberspace Administration of China and four other bodies, the rules target emotional dependency by requiring usage limits, crisis intervention, data protection, and a ban on virtual partners for minors. A landmark precedent for companion-AI governance.",
+  "confidence": 0.9,
+  "featured": false,
+  "order": 11,
+  "type": "news",
+  "websiteUrl": "https://www.openvibe.ai/blog-and-news/news/china-enacts-first-ai-companion-regulations"
+}

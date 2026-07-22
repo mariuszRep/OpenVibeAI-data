@@ -1,0 +1,23 @@
+{
+  "id": "news-20260701-003",
+  "slug": "deepmind-alphafold3-protein-interactions",
+  "title": "DeepMind AlphaFold 3 Expands to Predict Full Protein Interaction Networks",
+  "summary": "Google DeepMind has extended AlphaFold 3 to model entire protein-protein interaction networks at the proteome scale, enabling researchers to map disease pathways and drug targets with unprecedented accuracy. Early results show a 40% improvement in predicting novel binding sites over previous methods.",
+  "sourceUrl": "https://deepmind.google/research",
+  "sourceName": "DeepMind Research",
+  "publishedAt": "2026-06-28T10:00:00Z",
+  "selectedAt": "2026-07-01T08:00:00Z",
+  "category": "Research",
+  "tags": [
+    "DeepMind",
+    "AlphaFold",
+    "biology",
+    "drug-discovery"
+  ],
+  "shareText": "DeepMind extended AlphaFold 3 to map full protein interaction networks at proteome scale — 40% better at finding novel drug binding sites. AI is transforming medicine. 🧬 #AI #AlphaFold #DeepMind",
+  "confidence": 0.97,
+  "featured": false,
+  "order": 3,
+  "type": "news",
+  "websiteUrl": "https://www.openvibe.ai/blog-and-news/news/deepmind-alphafold3-protein-interactions"
+}

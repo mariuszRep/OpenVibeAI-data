@@ -1,0 +1,47 @@
+{
+  "publishable": true,
+  "verificationNote": "Primary official source: Korea JoongAng Daily published 'Lee urges stronger safeguards against privacy breaches, deepfake crimes' on 2026-07-17T03:23:14+00:00 (displayed date 2026-07-17). Reports President Lee's Blue House briefing calling for stronger penalties, deepfake labeling, distribution-stage rules. Event and exact date verified.",
+  "id": "korea-pushes-ai-privacy-and-deepfake-rules",
+  "slug": "korea-pushes-ai-privacy-and-deepfake-rules",
+  "title": "Korea pushes AI privacy and deepfake rules",
+  "summary": "President Lee Jae Myung urged the government on July 17, 2026 to strengthen safeguards against privacy breaches and deepfake-related crime as Korea enters the AI era, during a Blue House policy briefing. He called for substantially higher penalties for data leaks and proactive distribution-stage regulation of AI-generated content labeling, with legislation proposed in the National Assembly.",
+  "sources": [
+    {
+      "url": "https://www.koreajoongangdaily.com/korea/lee-urges-stronger-safeguards-against-privacy-breaches-deepfake-crimes/12777987",
+      "name": "Korea JoongAng Daily"
+    },
+    {
+      "url": "https://www.asiae.co.kr/en/article/2026071613291642535",
+      "name": "The Asia Business Daily"
+    }
+  ],
+  "sourceUrl": "https://www.koreajoongangdaily.com/korea/lee-urges-stronger-safeguards-against-privacy-breaches-deepfake-crimes/12777987",
+  "sourceName": "Korea JoongAng Daily",
+  "websiteUrl": "https://www.openvibe.ai/blog-and-news/news/korea-pushes-ai-privacy-and-deepfake-rules",
+  "publishedAt": "2026-07-17",
+  "selectedAt": "2026-07-17",
+  "category": "AI Regulation",
+  "tags": [
+    "ai regulation",
+    "south korea",
+    "privacy",
+    "deepfake"
+  ],
+  "impactAnalysis": {
+    "summary": "President Lee Jae Myung directed stronger penalties for data breaches, mandatory deepfake labeling, and distribution-stage controls during a Blue House policy briefing. The move responds to rising public concern over AI-generated disinformation and corporate data misuse in South Korea, one of the world's most digitally connected societies. New rules will impose compliance obligations on platforms, AI vendors, and content distributors operating in the Korean market.",
+    "scope": "moderate",
+    "affectedAreas": [
+      "ai regulation",
+      "privacy",
+      "deepfake detection",
+      "platform compliance"
+    ]
+  },
+  "confidence": 0.9,
+  "featured": false,
+  "order": 6,
+  "shareText": "South Korea's President Lee pushed for stronger data-breach penalties and distribution-stage deepfake labeling rules: https://www.openvibe.ai/blog-and-news/news/korea-pushes-ai-privacy-and-deepfake-rules",
+  "xPost": "President Lee Jae Myung directed stronger penalties for data breaches, mandatory deepfake labeling, and distribution-stage controls, responding to rising concern over AI disinformation in South Korea. https://www.openvibe.ai/blog-and-news/news/korea-pushes-ai-privacy-and-deepfake-rules",
+  "linkedinPost": "President Lee Jae Myung directed stronger penalties for data breaches, mandatory deepfake labeling, and distribution-stage controls during a Blue House policy briefing. The move responds to rising public concern over AI-generated disinformation and corporate data misuse in South Korea, and will impose compliance obligations on platforms, AI vendors, and content distributors. https://www.openvibe.ai/blog-and-news/news/korea-pushes-ai-privacy-and-deepfake-rules",
+  "type": "news"
+}

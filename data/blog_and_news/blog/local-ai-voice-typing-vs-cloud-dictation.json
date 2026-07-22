@@ -1,0 +1,20 @@
+{
+  "type": "blog",
+  "slug": "local-ai-voice-typing-vs-cloud-dictation",
+  "title": "Local AI Voice Typing vs Cloud Dictation: Privacy, Speed, Cost, and Accuracy",
+  "excerpt": "A balanced guide to choosing between dictation that runs on your computer and services that send your speech to the cloud.",
+  "publishedAt": "2026-07-22",
+  "updatedAt": "2026-07-22",
+  "tags": ["voice typing", "local AI", "privacy", "dictation"],
+  "readingTime": "5 min read",
+  "author": "OpenVibe",
+  "relatedProduct": "voice-typer",
+  "content": [
+    "AI dictation can follow two very different paths. A cloud service records or streams your speech to a remote service for transcription. Local voice typing runs the speech-recognition model on your own computer. Neither approach is universally better; the right choice depends on what you value and the device you use.",
+    "Privacy is the clearest distinction. With local transcription, your voice can stay on your machine and there is no need for an account or a copy of the audio to be processed by the provider. Cloud services may have strong security practices, but they still require you to trust a third party with the data covered by their terms and retention policy.",
+    "Cloud dictation can be convenient because it moves the computational work away from your computer. Some services also combine transcription with language models for formatting, rewriting, or specialised vocabulary. That can be useful when a reliable internet connection and a managed service are more important than keeping processing local.",
+    "Local dictation needs a one-time model download and enough memory and processing power to run it comfortably. After setup, it can work without an internet connection and avoids per-minute usage charges. Performance varies with the model size, language, microphone quality, background noise, and the computer itself.",
+    "Accuracy should not be treated as a single permanent score. A cloud service may perform better for a particular accent, language, or noisy recording, while a local model may be more than accurate enough for everyday writing. Test the kind of speech you actually dictate: names, technical terms, punctuation, and the applications where you work.",
+    "For people who want one shortcut that types into Windows applications while keeping transcription local, Voice Typer is an example of the local-first workflow. If advanced cloud features or the highest performance on a particular language are your priority, a cloud service may be a better fit. The useful choice is the one that matches your privacy, cost, and workflow requirements."
+  ]
+}

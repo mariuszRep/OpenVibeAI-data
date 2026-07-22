@@ -1,0 +1,23 @@
+{
+  "id": "news-20260701-002",
+  "slug": "openai-gpt5-agentic-workflows",
+  "title": "OpenAI Previews GPT-5 Agentic Workflow Capabilities at Developer Day",
+  "summary": "OpenAI's annual Developer Day showcased GPT-5's native agentic workflow capabilities, including the ability to autonomously plan, execute multi-step tasks, and recover from errors without human intervention. The new function-calling API design dramatically reduces latency for tool-use-heavy applications.",
+  "sourceUrl": "https://openai.com/blog",
+  "sourceName": "OpenAI Blog",
+  "publishedAt": "2026-06-29T18:30:00Z",
+  "selectedAt": "2026-07-01T08:00:00Z",
+  "category": "Model Release",
+  "tags": [
+    "OpenAI",
+    "GPT-5",
+    "agents",
+    "function-calling"
+  ],
+  "shareText": "OpenAI previewed GPT-5's native agentic capabilities at Developer Day — autonomous multi-step task execution with built-in error recovery. The agent era is here. 🤖 #AI #OpenAI #GPT5",
+  "confidence": 0.95,
+  "featured": true,
+  "order": 2,
+  "type": "news",
+  "websiteUrl": "https://www.openvibe.ai/blog-and-news/news/openai-gpt5-agentic-workflows"
+}

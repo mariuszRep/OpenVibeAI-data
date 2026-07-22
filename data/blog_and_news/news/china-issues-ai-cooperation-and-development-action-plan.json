@@ -1,0 +1,48 @@
+{
+  "publishable": true,
+  "verificationNote": "Primary official source: People's Daily Online (Xinhua) published 'China issues action plan on AI cooperation, development' on 2026-07-17T08:08:00+00:00 (displayed date 2026-07-17). Confirms NDRC and other departments released the eight-point action plan at WAIC 2026. Event and exact date verified.",
+  "id": "china-issues-ai-cooperation-and-development-action-plan",
+  "slug": "china-issues-ai-cooperation-and-development-action-plan",
+  "title": "China issues AI cooperation and development action plan",
+  "summary": "China released an eight-point AI cooperation and development action plan on July 17, 2026, during the World AI Conference in Shanghai, jointly issued by the National Development and Reform Commission and other government departments. The plan covers data, computing power, open-source ecosystems, industrial empowerment, talent development, rules and standards, governance, and AI ethics to strengthen international collaboration and bridge the digital divide.",
+  "sources": [
+    {
+      "url": "http://en.people.cn/n3/2026/0717/c90000-20479101.html",
+      "name": "People's Daily Online (Xinhua)"
+    },
+    {
+      "url": "https://www.chinadaily.com.cn/a/202607/17/WS6a59eeeda310986e2b465e13.html",
+      "name": "China Daily"
+    }
+  ],
+  "sourceUrl": "http://en.people.cn/n3/2026/0717/c90000-20479101.html",
+  "sourceName": "People's Daily Online (Xinhua)",
+  "websiteUrl": "https://www.openvibe.ai/blog-and-news/news/china-issues-ai-cooperation-and-development-action-plan",
+  "publishedAt": "2026-07-17",
+  "selectedAt": "2026-07-17",
+  "category": "AI Policy",
+  "tags": [
+    "ai policy",
+    "china",
+    "international cooperation",
+    "waic 2026"
+  ],
+  "impactAnalysis": {
+    "summary": "China unveiled an eight-point national AI cooperation and development action plan at WAIC 2026, covering cross-border data flows, shared compute, industrial ecosystems, talent exchange, standards alignment, governance, and ethics. The plan signals a coordinated state-led push to set the terms of global AI collaboration and reduce dependency on Western-led frameworks. It complements China's parallel launch of WAICO as a competing governance pole.",
+    "scope": "industry-wide",
+    "affectedAreas": [
+      "ai policy",
+      "ai infrastructure",
+      "international trade",
+      "standards",
+      "research collaboration"
+    ]
+  },
+  "confidence": 0.95,
+  "featured": false,
+  "order": 3,
+  "shareText": "China released an eight-point AI cooperation and development action plan at WAIC 2026 covering data, compute, open-source, talent, standards, and governance: https://www.openvibe.ai/blog-and-news/news/china-issues-ai-cooperation-and-development-action-plan",
+  "xPost": "China released an eight-point AI cooperation and development action plan at WAIC 2026, covering data, compute, open-source ecosystems, talent, standards, and governance to strengthen global collaboration. https://www.openvibe.ai/blog-and-news/news/china-issues-ai-cooperation-and-development-action-plan",
+  "linkedinPost": "China unveiled an eight-point national AI cooperation and development action plan at WAIC 2026, covering cross-border data flows, shared compute, industrial ecosystems, talent exchange, standards alignment, governance, and ethics. The plan signals a coordinated state-led push to set the terms of global AI collaboration and reduce dependency on Western-led frameworks, complementing the parallel launch of WAICO. https://www.openvibe.ai/blog-and-news/news/china-issues-ai-cooperation-and-development-action-plan",
+  "type": "news"
+}

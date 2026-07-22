@@ -1,0 +1,29 @@
+{
+  "publishable": true,
+  "verificationNote": "Verified via NVIDIA Newsroom primary source (nvidianews.nvidia.com) published 2026-07-16T00:00:00Z, confirming the Japan + NVIDIA national AI infrastructure announcement on the required date.",
+  "id": "japan-nvidia-worlds-first-national-ai-infrastructure",
+  "slug": "japan-nvidia-worlds-first-national-ai-infrastructure",
+  "title": "Japan and NVIDIA launch world's first national AI infrastructure",
+  "summary": "NVIDIA announced it is working with Noetra Corp. to launch a Vera Rubin AI factory with 13,750 Vera CPUs and 27,500 Rubin GPUs delivering 140MW of data center capacity, providing the computing foundation for Japan's METI-backed FRONTia Project for physical AI.",
+  "sourceUrl": "https://nvidianews.nvidia.com/news/japan-government-industrial-leaders-and-nvidia-launch-the-worlds-first-national-ai-infrastructure",
+  "sourceName": "NVIDIA Newsroom",
+  "publishedAt": "2026-07-16",
+  "selectedAt": "2026-07-16",
+  "category": "AI Infrastructure",
+  "tags": [
+    "nvidia",
+    "japan",
+    "physical-ai",
+    "sovereign-ai",
+    "infrastructure"
+  ],
+  "whyItMatters": "Marks a major sovereign physical-AI buildout pairing government backing with NVIDIA silicon, advancing Japan's goal of 30% of the global AI robotics market by 2040.",
+  "shareText": "Japan and NVIDIA just launched what NVIDIA calls the world's first national AI infrastructure — a 140MW Vera Rubin AI factory for physical AI. #AI #Infrastructure",
+  "xPost": "Japan + NVIDIA launch a 140MW Vera Rubin AI factory (27,500 GPUs) for national physical AI via METI's FRONTia Project. NVIDIA calls it the world's first national AI infrastructure. https://nvidianews.nvidia.com/news/japan-government-industrial-leaders-and-nvidia-launch-the-worlds-first-national-ai-infrastructure",
+  "linkedinPost": "Japan and NVIDIA have launched what NVIDIA describes as the world's first national AI infrastructure for physical AI. The 140MW Vera Rubin AI factory (13,750 Vera CPUs, 27,500 Rubin GPUs) will power METI's FRONTia Project, building open multimodal foundation models for robotics, digital twins, and AI agents. A major step for sovereign AI in manufacturing and robotics.",
+  "confidence": 0.95,
+  "featured": false,
+  "order": 9,
+  "type": "news",
+  "websiteUrl": "https://www.openvibe.ai/blog-and-news/news/japan-nvidia-worlds-first-national-ai-infrastructure"
+}

@@ -1,0 +1,47 @@
+{
+  "publishable": true,
+  "verificationNote": "Primary official source: TASS (Russian state news agency) published 'Russian Federation Council approves framework law supporting AI development' on 2026-07-17T09:52:53+00:00 (displayed date 2026-07-17). Confirms Federation Council approved the framework AI law; effective Sept 1, 2026 if signed by president. Event and exact date verified.",
+  "id": "russia-approves-framework-ai-law",
+  "slug": "russia-approves-framework-ai-law",
+  "title": "Russia approves framework AI law",
+  "summary": "The Russian Federation Council approved a framework law on July 17, 2026, aimed at advancing AI development, particularly large foundational models, and ensuring technological sovereignty. The law defines key terms, establishes regulation principles including data localization and traditional values, and grants the president authority to approve a National AI Development Strategy; it takes effect September 1, 2026 if signed by the president.",
+  "sources": [
+    {
+      "url": "https://tass.com/politics/2161507",
+      "name": "TASS"
+    },
+    {
+      "url": "https://www.interfax-russia.ru/moscow/news/zakon-o-razvitii-tehnologiy-ii-v-rf-odobren-sovetom-federacii",
+      "name": "Interfax Russia"
+    }
+  ],
+  "sourceUrl": "https://tass.com/politics/2161507",
+  "sourceName": "TASS",
+  "websiteUrl": "https://www.openvibe.ai/blog-and-news/news/russia-approves-framework-ai-law",
+  "publishedAt": "2026-07-17",
+  "selectedAt": "2026-07-17",
+  "category": "AI Regulation",
+  "tags": [
+    "ai regulation",
+    "russia",
+    "legislation",
+    "sovereign ai"
+  ],
+  "impactAnalysis": {
+    "summary": "The Federation Council approved Draft Law No. 1271570-8, Russia's first comprehensive AI framework legislation, effective September 1 2026. It introduces sovereign and national AI model categories, data localization mandates, training-data legal carve-outs, and AI-content labeling requirements. The law formalizes a closed, state-controlled AI ecosystem distinct from EU and US regulatory models and will reshape how foreign AI tools operate in Russia.",
+    "scope": "industry-wide",
+    "affectedAreas": [
+      "ai regulation",
+      "data sovereignty",
+      "content labeling",
+      "enterprise compliance"
+    ]
+  },
+  "confidence": 0.95,
+  "featured": false,
+  "order": 4,
+  "shareText": "Russia's Federation Council approved a framework AI law introducing sovereign/national model categories, data localization, and AI-labeling rules, effective Sept 1 2026: https://www.openvibe.ai/blog-and-news/news/russia-approves-framework-ai-law",
+  "xPost": "Russia's Federation Council approved its first comprehensive AI framework law, introducing sovereign/national model categories, data localization, and AI-content labeling, effective Sept 1 2026. https://www.openvibe.ai/blog-and-news/news/russia-approves-framework-ai-law",
+  "linkedinPost": "The Federation Council approved Draft Law No. 1271570-8, Russia's first comprehensive AI framework legislation effective September 1 2026. It introduces sovereign and national AI model categories, data localization mandates, training-data legal carve-outs, and AI-content labeling requirements, formalizing a closed, state-controlled AI ecosystem distinct from EU and US models. https://www.openvibe.ai/blog-and-news/news/russia-approves-framework-ai-law",
+  "type": "news"
+}

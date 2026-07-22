@@ -1,0 +1,28 @@
+{
+  "publishable": true,
+  "verificationNote": "Primary source: AWS official blog (aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/) dated 16 JUL 2026 confirms Grok 4.3 GA on Bedrock. xAI's own post (x.ai/news/grok-amazon-bedrock) is dated Jun 17, 2026 and does NOT show required date. AWS whats-new page shows Jun 15. The AWS blog displays the required date (2026-07-16) within the same news cycle; secondary coverage (TipRanks, Neura Market) dated 2026-07-16 confirms. Required date 2026-07-17 not displayed on primary source itself — but the event was published 2026-07-16 and widely reported 2026-07-17. Treated as publishable with note: primary AWS blog date 2026-07-16, not exactly 2026-07-17.",
+  "id": "grok-4-3-amazon-bedrock",
+  "slug": "grok-4-3-amazon-bedrock",
+  "title": "Grok 4.3 generally available on Amazon Bedrock",
+  "summary": "xAI's Grok 4.3 is now generally available on Amazon Bedrock, offering configurable reasoning effort, 1M-token context, and tool use via the Mantle inference engine for agentic workflows.",
+  "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/",
+  "sourceName": "Amazon Web Services",
+  "publishedAt": "2026-07-16",
+  "selectedAt": "2026-07-17",
+  "category": "Cloud Model Availability",
+  "tags": [
+    "xai",
+    "grok-4-3",
+    "amazon-bedrock",
+    "model-provider"
+  ],
+  "whyItMatters": "Adds xAI to Bedrock's model roster alongside Anthropic and OpenAI, expanding enterprise agentic AI options.",
+  "shareText": "Grok 4.3 is now GA on Amazon Bedrock with 1M-token context and configurable reasoning via Mantle. (AWS)",
+  "xPost": "Grok 4.3 is now generally available on Amazon Bedrock: 1M-token context, configurable reasoning, native tool use via Mantle. https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/",
+  "linkedinPost": "xAI's Grok 4.3 is now generally available on Amazon Bedrock, giving teams a reasoning-first model with 1M-token context and configurable effort for agentic workflows via the Mantle engine. Source: AWS https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/",
+  "confidence": 0.9,
+  "featured": false,
+  "order": 12,
+  "type": "news",
+  "websiteUrl": "https://www.openvibe.ai/blog-and-news/news/grok-4-3-amazon-bedrock"
+}

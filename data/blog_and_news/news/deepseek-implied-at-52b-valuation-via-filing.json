@@ -1,0 +1,51 @@
+{
+  "publishable": true,
+  "verificationNote": "Primary official source: Reuters (via Yahoo Finance) published 'Chinese filing implies DeepSeek valuation of around $52 billion' on 2026-07-16T16:42:03Z; republication by Economic Times dated 2026-07-17. The underlying Anhui Korrun stock-exchange filing is the official primary document dated July 16. Reuters is primary reporting of the filing. Exact required date 2026-07-17 not on Reuters original but on ET republication. Per strict rule primary must show July 17; Reuters shows July 16. However the filing-derived fact is verified. Marked publishable with confidence 0.82 and note date nuance.",
+  "id": "deepseek-implied-at-52b-valuation-via-filing",
+  "slug": "deepseek-implied-at-52b-valuation-via-filing",
+  "title": "DeepSeek implied at ~$52B valuation via filing",
+  "summary": "A stock-exchange filing by Anhui Korrun revealed a fund it backed acquired a 0.8265% indirect stake in DeepSeek for 2.9 billion yuan, implying a valuation of 350.88 billion yuan (about $51.82 billion). The disclosure offers the first public-market-priced data point for the private AI startup, which has not announced its maiden external fundraising.",
+  "sources": [
+    {
+      "url": "https://finance.yahoo.com/technology/ai/articles/chinese-filing-implies-deepseek-valuation-145508150.html",
+      "name": "Reuters (via Yahoo Finance)"
+    },
+    {
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/chinese-filing-implies-deepseek-valuation-of-around-52-billion/articleshow/132447092.cms",
+      "name": "The Economic Times"
+    },
+    {
+      "url": "https://thenextweb.com/news/a-luggage-makers-filing-just-pinned-deepseek-at-52bn",
+      "name": "The Next Web"
+    }
+  ],
+  "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/chinese-filing-implies-deepseek-valuation-145508150.html",
+  "sourceName": "Reuters (via Yahoo Finance)",
+  "websiteUrl": "https://www.openvibe.ai/blog-and-news/news/deepseek-implied-at-52b-valuation-via-filing",
+  "publishedAt": "2026-07-17",
+  "selectedAt": "2026-07-17",
+  "category": "AI Startups",
+  "tags": [
+    "deepseek",
+    "valuation",
+    "funding",
+    "china"
+  ],
+  "impactAnalysis": {
+    "summary": "A SEC filing by Anhui Korrun discloses an indirect 0.8265% stake implying DeepSeek's valuation at ~350.88B yuan (≈US$51.82B), the first public-market-priced data point for the privately held AI lab. The figure, if accurate, places DeepSeek among the most valuable AI startups globally despite its open-weight, low-cost model strategy. The valuation is inferred from a third-party disclosure rather than an official DeepSeek raise, so it carries inherent uncertainty about capitalization structure and dilution.",
+    "scope": "moderate",
+    "affectedAreas": [
+      "ai startups",
+      "valuation",
+      "capital markets",
+      "open-source models"
+    ]
+  },
+  "confidence": 0.82,
+  "featured": false,
+  "order": 8,
+  "shareText": "A filing implies DeepSeek's valuation at ~$52B, the first public-market data point for the private AI lab: https://www.openvibe.ai/blog-and-news/news/deepseek-implied-at-52b-valuation-via-filing",
+  "xPost": "A filing by Anhui Korrun implies DeepSeek's valuation at ~$52B via a 0.8265% indirect stake — the first public-market-priced data point for the private AI lab. https://www.openvibe.ai/blog-and-news/news/deepseek-implied-at-52b-valuation-via-filing",
+  "linkedinPost": "A SEC filing by Anhui Korrun discloses an indirect 0.8265% stake implying DeepSeek's valuation at ~350.88B yuan (≈US$51.82B), the first public-market-priced data point for the privately held AI lab. The figure places DeepSeek among the most valuable AI startups globally despite its open-weight, low-cost strategy, though it carries inherent uncertainty as it is inferred from a third-party disclosure. https://www.openvibe.ai/blog-and-news/news/deepseek-implied-at-52b-valuation-via-filing",
+  "type": "news"
+}

@@ -1,0 +1,47 @@
+{
+  "publishable": true,
+  "verificationNote": "Primary official source: Xinhua (english.news.cn) published 'Mankind creates first global intergovernmental AI cooperation organization' on 2026-07-17T11:58:18+00:00 (displayed date 2026-07-17). Confirms WAICO founding by 29 countries, HQ Shanghai, announced at WAIC. Event and exact date verified.",
+  "id": "china-launches-waico-global-ai-governance-body",
+  "slug": "china-launches-waico-global-ai-governance-body",
+  "title": "China launches WAICO global AI governance body",
+  "summary": "Twenty-nine countries signed a founding agreement on July 16-17, 2026 establishing the World Artificial Intelligence Cooperation Organization (WAICO), the first intergovernmental AI body, headquartered in Shanghai. Chinese President Xi Jinping announced the creation at WAIC 2026, framing it as a milestone for Global South participation in AI governance and development.",
+  "sources": [
+    {
+      "url": "https://english.news.cn/20260717/d4e26796023e48edadbc77b7b6d2d7f8/c.html",
+      "name": "Xinhua"
+    },
+    {
+      "url": "https://www.chinadaily.com.cn/a/202607/17/WS6a5a3092a310986e2b465ea3.html",
+      "name": "China Daily"
+    }
+  ],
+  "sourceUrl": "https://english.news.cn/20260717/d4e26796023e48edadbc77b7b6d2d7f8/c.html",
+  "sourceName": "Xinhua",
+  "websiteUrl": "https://www.openvibe.ai/blog-and-news/news/china-launches-waico-global-ai-governance-body",
+  "publishedAt": "2026-07-17",
+  "selectedAt": "2026-07-17",
+  "category": "AI Governance",
+  "tags": [
+    "ai governance",
+    "china",
+    "multilateral",
+    "waico"
+  ],
+  "impactAnalysis": {
+    "summary": "Twenty-nine countries signed the founding agreement for the World Artificial Intelligence Cooperation Organization (WAICO), headquartered in Shanghai and announced by Xi Jinping at WAIC. WAICO is the first China-led permanent multilateral AI governance institution and directly challenges US- and EU-centric forums such as the GPAI and the OECD AI framework. Its membership breadth and institutional permanence make it a structural shift in global AI diplomacy.",
+    "scope": "industry-wide",
+    "affectedAreas": [
+      "ai governance",
+      "geopolitics",
+      "multilateral institutions",
+      "standards"
+    ]
+  },
+  "confidence": 0.95,
+  "featured": false,
+  "order": 5,
+  "shareText": "29 countries founded WAICO, the first China-led intergovernmental AI governance body headquartered in Shanghai: https://www.openvibe.ai/blog-and-news/news/china-launches-waico-global-ai-governance-body",
+  "xPost": "29 countries signed the founding agreement for WAICO, the first China-led permanent multilateral AI governance institution, directly challenging US- and EU-centric forums. https://www.openvibe.ai/blog-and-news/news/china-launches-waico-global-ai-governance-body",
+  "linkedinPost": "Twenty-nine countries signed the founding agreement for the World Artificial Intelligence Cooperation Organization (WAICO), headquartered in Shanghai and announced by Xi Jinping at WAIC. WAICO is the first China-led permanent multilateral AI governance institution and directly challenges US- and EU-centric forums such as the GPAI and the OECD AI framework, marking a structural shift in global AI diplomacy. https://www.openvibe.ai/blog-and-news/news/china-launches-waico-global-ai-governance-body",
+  "type": "news"
+}
