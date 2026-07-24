@@ -2,7 +2,7 @@
 name: ai-news-external-data-migration
 title: AI News External Data Repo Migration
 description: Migrate AI News JSON data from the committed OpenVibeAI website repo to the separate GitHub Pages data repo (OpenVibeAI-data), update the website to fetch from the external URLs, and update/supersede the OpenDora workflow publisher to target the data repo.
-status: ready
+status: cancelled
 type: migration
 scope: /home/mariusz/projects/OpenVibeAI-data/data/ai-news/**, /home/mariusz/projects/OpenVibeAI/app/products/ai-news/**, /home/mariusz/projects/OpenVibeAI/components/**, /home/mariusz/projects/opendora/.projectflows/goals/ai-news-workflow-data-publisher/GOAL.md
 attempt: 0
@@ -172,8 +172,8 @@ None yet.
 No verification yet.
 
 ## Final Outcome
-Pending.
+Cancelled. The data has been migrated from `data/ai-news` to `data/blog_and_news`. The RSS publisher workflow now writes directly to `data/blog_and_news/news/{slug}.json` and `data/blog_and_news/index.jsonl`, following the BLOG_SCHEMA.md structure. This legacy goal is superseded by the new blog-and-news export flow.
 
 ## Ready For Execution
-- Status: yes
-- Reason: All requirements are clear, scope is bounded, acceptance criteria are concrete, risks are documented, and the implementation approach is straightforward. The data repo exists with GitHub Pages enabled. The website code is well-understood.
+- Status: no (cancelled)
+- Reason: Superseded by the blog-and-news export migration.
